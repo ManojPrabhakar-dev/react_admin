@@ -1,6 +1,6 @@
 import "./transactionInfo.css";
 
-const TransactionList = ({ name, imgSrc, date, amount, status }) => {
+const TransactionInfo = ({ name, imgSrc, date, amount, status }) => {
   return (
     <>
       <div className="transactionInfoContainer">
@@ -28,4 +28,4 @@ const TransactionList = ({ name, imgSrc, date, amount, status }) => {
   );
 };
 
-export default TransactionList;
+export default TransactionInfo;

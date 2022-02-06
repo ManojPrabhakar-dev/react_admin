@@ -1,0 +1,54 @@
+.transactionListContainer {
+    padding       : 15px;
+    display       : flex;
+    flex-direction: column;
+    flex          : 5;
+    border-radius : 8px;
+    gap           : 15px;
+    margin-left   : 20px;
+}
+
+.tableContainer {
+    border-spacing: 10px;
+}
+
+.customerPicWrapper {
+    display    : flex;
+    flex       : 2;
+    align-items: center;
+}
+
+.customerPic {
+    width        : 32px;
+    height       : 32px;
+    border-radius: 50%;
+    object-fit   : cover;
+    margin-right : 10px;
+}
+
+.tRow {
+    text-align: left;
+    margin    : 10px;
+}
+
+.statusText {
+    font-weight  : 500;
+    font-size    : 14px;
+    border-radius: 8px;
+    padding      : 5px 5px;
+}
+
+.approved {
+    background-color: #bce9bc;
+    color           : green;
+}
+
+.pending {
+    background-color: #bcdfe9;
+    color           : rgb(0, 66, 128);
+}
+
+.declined {
+    background-color: #e9bcbc;
+    color           : rgb(199, 36, 36);
+}

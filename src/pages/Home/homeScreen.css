@@ -1,0 +1,41 @@
+.contentArea {
+    flex: 4;
+}
+
+.statsInfoContainer {
+    display        : flex;
+    justify-content: space-evenly;
+}
+
+.chartContainer {
+    padding       : 15px;
+    display       : flex;
+    flex-direction: column;
+    margin        : 10px 20px;
+    border-radius : 5px;
+}
+
+.chartTitle {
+    font-weight  : bold;
+    font-size    : 22px;
+    margin-bottom: 10px;
+}
+
+.homeBottomContainer {
+    display: flex;
+    margin : 20px;
+}
+
+.leftCardContainer {
+    padding       : 15px;
+    display       : flex;
+    flex-direction: column;
+    flex          : 3;
+    border-radius : 8px;
+    gap           : 15px;
+}
+
+.btmCardTitle {
+    font-weight  : bold;
+    margin-bottom: 10px;
+}
