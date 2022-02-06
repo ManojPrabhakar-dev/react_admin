@@ -1,0 +1,62 @@
+.reportCard {
+    display       : flex;
+    flex          : 1;
+    flex-direction: column;
+    border-radius : 8px;
+    padding       : 15px;
+    margin        : 10px 20px;
+    height        : 150px;
+}
+
+.reportTitle {
+    font-weight  : 500;
+    font-size    : 24px;
+    margin-bottom: 10px;
+
+}
+
+.reportPriceContainer {
+    display    : flex;
+    align-items: center;
+}
+
+.reportPrice {
+    font-weight : 700;
+    font-size   : 32px;
+    margin-right: 20px;
+}
+
+/* .priceDeviationWrapper{
+
+} */
+
+.reportPriceDeviation {
+    font-size: 20px;
+}
+
+.priceDownIcon {
+    color: red;
+}
+
+.priceUpIcon {
+    color: green;
+}
+
+.summaryReport {
+    margin-top : 15px;
+    font-weight: 500;
+    font-size  : 15px;
+    color      : #555;
+}
+
+.cardBG1 {
+    background-color: #ade0cb;
+}
+
+.cardBG2 {
+    background-color: #eca9bb;
+}
+
+.cardBG3 {
+    background-color: #91c3da;
+}

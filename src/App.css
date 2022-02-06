@@ -1,7 +1,80 @@
+.cardShawdow {
+    -webkit-box-shadow: 3px 4px 15px -2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow   : 3px 4px 15px -2px rgba(0, 0, 0, 0.5);
+    box-shadow        : 3px 4px 15px -2px rgba(0, 0, 0, 0.5);
+}
+
 .contentWrapper {
     display: flex;
 }
 
 .contentArea {
     flex: 4;
+}
+
+.statsInfoContainer {
+    display        : flex;
+    justify-content: space-evenly;
+}
+
+.chartContainer {
+    padding       : 15px;
+    display       : flex;
+    flex-direction: column;
+    margin        : 10px 20px;
+    border-radius : 5px;
+}
+
+.chartTitle {
+    font-weight  : bold;
+    font-size    : 22px;
+    margin-bottom: 10px;
+}
+
+.homeBottomContainer {
+    display: flex;
+    margin : 20px;
+}
+
+.leftCardContainer {
+    padding       : 15px;
+    display       : flex;
+    flex-direction: column;
+    flex          : 2;
+    border-radius : 8px;
+    gap           : 15px;
+}
+
+.btmCardTitle {
+    font-weight  : bold;
+    margin-bottom: 10px;
+}
+
+.rightCardContainer {
+    padding       : 15px;
+    display       : flex;
+    flex-direction: column;
+    flex          : 4;
+    border-radius : 8px;
+    gap           : 15px;
+    margin-left   : 20px;
+}
+
+.transationHeadingWrapper {
+    display: flex;
+}
+
+.transationHeading {
+    font-weight: 600;
+    font-size  : 16px;
+}
+
+.customer {
+    flex: 2;
+}
+
+.date,
+.amount,
+.status {
+    flex: 1;
 }

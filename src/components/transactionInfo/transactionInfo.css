@@ -1,0 +1,46 @@
+.transactionInfoContainer {
+    display    : flex;
+    align-items: center;
+}
+
+.customerPicWrapper {
+    display    : flex;
+    flex       : 2;
+    align-items: center;
+}
+
+.customerPic {
+    width        : 32px;
+    height       : 32px;
+    border-radius: 50%;
+    object-fit   : cover;
+    margin-right : 10px;
+}
+
+.transactionDate,
+.transactionAmount,
+.transactionStatus {
+    flex: 1;
+}
+
+.statusText {
+    font-weight  : 600;
+    font-size    : 16px;
+    border-radius: 8px;
+    padding      : 6px 6px;
+}
+
+.approved {
+    background-color: #bce9bc;
+    color           : green;
+}
+
+.pending {
+    background-color: #bcdfe9;
+    color           : rgb(0, 66, 128);
+}
+
+.declined {
+    background-color: #e9bcbc;
+    color           : rgb(199, 36, 36);
+}

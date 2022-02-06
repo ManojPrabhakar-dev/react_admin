@@ -1,0 +1,63 @@
+.newMembersContainer {
+    padding       : 15px;
+    display       : flex;
+    flex-direction: column;
+    flex          : 2;
+}
+
+.newUserInfo {
+    display        : flex;
+    justify-content: space-evenly;
+    align-items    : center;
+}
+
+.profilePicWrapper {
+    flex       : 1;
+    display    : flex;
+    align-items: center;
+}
+
+.newUserPic {
+    width        : 32px;
+    height       : 32px;
+    border-radius: 50%;
+    object-fit   : cover;
+}
+
+.userNameWrapper {
+    display       : flex;
+    flex-direction: column;
+    flex          : 4;
+}
+
+.newUserName {
+    font-weight: bold;
+    font-size  : 14px;
+}
+
+.newUserRole {
+    font-size: 12px;
+    color    : #555;
+}
+
+.btnDisplay {
+    background-color: rgb(238, 235, 235);
+    color           : #555;
+    border-radius   : 8px;
+    padding         : 5px;
+    border          : none;
+    flex            : 2;
+    font-size       : 16px;
+    cursor          : pointer;
+    display         : flex;
+    align-items     : center;
+}
+
+.visibilityIcon {
+    font-size: 18px;
+    margin   : 0px 5px;
+}
+
+.btnText {
+    margin-left: 5px;
+}
